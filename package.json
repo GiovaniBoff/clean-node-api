@@ -22,6 +22,11 @@
       "standard --fix"
     ]
   },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "homepage": "https://github.com/GiovaniBoff/clean-node-api#readme",
   "devDependencies": {
     "husky": "^6.0.0",
