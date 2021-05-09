@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
+    "test:staged": "jest",
     "prepare": "npx husky install"
   },
   "repository": {
@@ -19,7 +20,8 @@
   },
   "lint-staged": {
     "*.js": [
-      "standard --fix"
+      "standard --fix",
+      "npm run test:staged"
     ]
   },
   "standard": {
