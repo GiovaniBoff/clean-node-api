@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "npx husky install"
   },
   "repository": {
@@ -19,13 +19,13 @@
   },
   "lint-staged": {
     "*.js": [
-      "standard --fix",
-      "git add"
+      "standard --fix"
     ]
   },
   "homepage": "https://github.com/GiovaniBoff/clean-node-api#readme",
   "devDependencies": {
     "husky": "^6.0.0",
+    "jest": "^26.6.3",
     "lint-staged": "^11.0.0",
     "standard": "^16.0.3"
   }
