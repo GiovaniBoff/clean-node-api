@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
-    "test:staged": "jest",
+    "test": "jest --watch --colors",
+    "test:staged": "jest --passWithNoTests --findRelatedTests --silent --noStackTrace",
     "prepare": "npx husky install"
   },
   "repository": {
