@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --watch --colors",
     "test:staged": "jest --passWithNoTests --findRelatedTests --silent --noStackTrace",
+    "test:ci": "jest --coverage",
     "prepare": "npx husky install"
   },
   "repository": {
